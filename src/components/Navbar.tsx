@@ -59,6 +59,15 @@ const Navbar = () => {
             </NavLink>
 
             <NavLink
+              to="/skills"
+              className={({ isActive }) =>
+                `${linkStyle} ${isActive ? activeStyle : ""}`
+              }
+            >
+              Skills
+            </NavLink>
+
+            <NavLink
               to="/tenses"
               className={({ isActive }) =>
                 `${linkStyle} ${isActive ? activeStyle : ""}`
@@ -149,6 +158,9 @@ const Navbar = () => {
 
           <NavLink to="/grammar" onClick={() => setIsOpen(false)} className={linkStyle}>
             Grammar
+          </NavLink>
+          <NavLink to="/skills" onClick={() => setIsOpen(false)} className={linkStyle}>
+            Skills
           </NavLink>
 
           <NavLink to="/tenses" onClick={() => setIsOpen(false)} className={linkStyle}>

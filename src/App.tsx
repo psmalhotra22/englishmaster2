@@ -8,6 +8,7 @@ import Translator from "./pages/Translator";
 import Footer from "./components/Footer";
 import DailyPractice from "./pages/DailyPractice";
 import Tenses from "./pages/Tenses";
+import Skills from "./pages/Skills";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/grammar" element={<Grammar />} />
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/tenses" element={<Tenses />} />
+        <Route path="/skills" element={<Skills />} />
         
       </Routes>
       <Footer/>
