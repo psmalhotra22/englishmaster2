@@ -102,6 +102,15 @@ const Navbar = () => {
             >
               Translator
             </NavLink>
+
+            <NavLink
+              to="/other-projects"
+              className={({ isActive }) =>
+                `${linkStyle} ${isActive ? activeStyle : ""}`
+              }
+            >
+              Our Other Projects
+            </NavLink>
  
           </div>
 
@@ -177,6 +186,10 @@ const Navbar = () => {
 
           <NavLink to="/translator" onClick={() => setIsOpen(false)} className={linkStyle}>
             Translator
+          </NavLink>
+
+          <NavLink to="/other-projects" onClick={() => setIsOpen(false)} className={linkStyle}>
+            Our Other Projects
           </NavLink>
 
         </div>
