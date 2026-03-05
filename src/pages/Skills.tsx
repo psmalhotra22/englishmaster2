@@ -194,7 +194,7 @@ export default function Skills() {
                   <SkillIcon className="w-6 h-6" />
                   <h3 className="text-xl font-semibold">{skill.title}</h3>
                 </div>
-                <div className="flex justify-between text-xs mt-2">
+                <div className="flex justify-between text-xs mt-2 ">
                   <span>Level: {skill.level}</span>
                   <span>Duration: {skill.duration}</span>
                 </div>
