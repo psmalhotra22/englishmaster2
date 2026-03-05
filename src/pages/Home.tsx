@@ -10,6 +10,7 @@ import {
   FileText,
   Rocket,
 } from "lucide-react";
+import InstallButton from "./InstallButton";
 
 const Home = () => {
   const iconStyle = "w-6 h-6 inline-block mr-2";
@@ -43,6 +44,7 @@ const Home = () => {
           >
             Take a Quiz
           </Link>
+          <InstallButton/>
         </div>
       </section>
 
